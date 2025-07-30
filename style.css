@@ -8,7 +8,7 @@
 
 }
 body{
-   /* background-color: #012429;  */
+    background-color: #012429;  
   color: rgb(223, 224, 247);
 }
 .header{
@@ -55,9 +55,8 @@ body{
 }
 .home{
   height: 100vh;
-  background: url('photo.jpeg') no-repeat; 
-  background-size: cover;
-  background-position: center;
+  
+
   display: flex;
   align-items: center;
   padding: 0 10%;
@@ -245,36 +244,7 @@ body{
 .home-sci a:hover::before{
   width: 100%;
 }
-.imagehover{
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 550px;
-  height: 100%;
-  background: transparent;
-  
-  transition: .5s;
 
-}
-
-.imagehover:hover{
- background-color: #012429;
- opacity: .7;
-  
-
-}
-.imagehover::after{
-  content:'';
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 120%;
-  height: 100%;
-  background-color: #012429;
-  animation: showRight 1s ease forwards;
-  animation-delay: 2.8s;
-  z-index: 100;
-}
 
 @keyframes showRight{
   100%{
